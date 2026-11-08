@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Brand</span>
+            </div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Modern & Responsive Design</h1>
+                <p>A clean single-page landing page layout built with CSS grid and flexbox, supporting automatic dark/light mode switching.</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Clean Architecture</h3>
+                        <p>Separated HTML and CSS structure for optimal maintainability.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Responsive Layout</h3>
+                        <p>Fully adaptive across mobile, tablet, and desktop viewports.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Dark Mode</h3>
+                        <p>Built-in light and dark mode styling with system preference support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Project. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
